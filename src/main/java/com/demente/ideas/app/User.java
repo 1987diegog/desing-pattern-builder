@@ -11,7 +11,7 @@ public class User {
     private String profession;
     private LocalDate birthday;
     private String address;
-    private List<String> objetos;
+    private List<String> objects;
 
     public String getName() {
         return name;
@@ -61,11 +61,11 @@ public class User {
         this.address = address;
     }
 
-    public List<String> getObjetos() {
-        return objetos;
+    public List<String> getObjects() {
+        return objects;
     }
 
-    public void setObjetos(List<String> objetos) {
-        this.objetos = objetos;
+    public void setObjects(List<String> objects) {
+        this.objects = objects;
     }
 }

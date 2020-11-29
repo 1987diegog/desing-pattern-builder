@@ -12,10 +12,10 @@ public class BuilderObjects extends BuilderDirected {
     }
 
     public BuilderObjects objeto(String objeto) {
-        if (this.user.getObjetos() == null) {
-            this.user.setObjetos(new ArrayList<>());
+        if (this.user.getObjects() == null) {
+            this.user.setObjects(new ArrayList<>());
         }
-        this.user.getObjetos().add(objeto);
+        this.user.getObjects().add(objeto);
         return this;
     }
 
